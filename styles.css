@@ -11,14 +11,14 @@ body {
      /* border: 3px solid rgba(94, 255, 0, 0.822);  */
      background-color: black; 
      color: white; 
-     width: 100%; 
+     width: 99.7%; 
      height: 30rem; 
      position:relative;
 }
 
 .navItemsIcons {
     display:flex; 
-    gap: 60rem; 
+    gap: 50rem; 
     /* border: 2px solid red;  */
 }
 
@@ -38,9 +38,11 @@ body {
 
 .logoImg {
     width: 12rem; 
-    height: 6rem; 
+    height: 5rem; 
     padding: 10rem; 
-    padding-left: 45rem;
+    /* padding-left: 45rem; */
+    /* border: 1px solid red; */
+    margin-left: 35rem;   
 }
 
 .logoText {
@@ -54,8 +56,8 @@ body {
 
 .container {
      /* border: 1px solid red;  */
-     width: 90%; 
-     height: 30rem; 
+     width: 99.7%; 
+     height: 35rem; 
      display:flex;
 }
 
@@ -69,7 +71,8 @@ body {
     /* border: 1px solid red;  */
     margin: 3rem 0.1rem; 
     width: 25rem; 
-    height: 35.5rem;
+    height: 28rem;
+    padding: 0rem 1rem;
 }
 
 .gettingstartedText {
@@ -154,7 +157,9 @@ body {
 .twoBoxCon {
     /* border: 1px solid red;  */
     height: 35rem; 
-    padding: 1rem 3rem; 
+    padding: 1rem 0rem; 
+    /* padding-left: 1rem; */
+    width: 99.7%;
     gap: 2rem; 
     margin: 1rem 0rem;
 }
@@ -162,6 +167,7 @@ body {
 .cardBoxes {
     /* border: 1px solid red;  */
     width: 40rem;
+    margin: 0rem 3rem; 
 }
 
 .boxesImg {
