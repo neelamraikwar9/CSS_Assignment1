@@ -17,8 +17,9 @@ body {
 }
 
 .navItemsIcons {
-    display: flex; 
-    gap: 50rem; 
+    display: flex;
+    justify-content: space-between; 
+    /* gap: 50rem;  */
     /* border: 2px solid red;  */
 }
 
