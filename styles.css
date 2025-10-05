@@ -11,13 +11,13 @@ body {
      /* border: 3px solid rgba(94, 255, 0, 0.822);  */
      background-color: black; 
      color: white; 
-     width: 99.7%; 
+     /* width: 99.7%;  */
      height: 30rem; 
-     position:relative;
+     /* position: relative; */
 }
 
 .navItemsIcons {
-    display:flex; 
+    display: flex; 
     gap: 50rem; 
     /* border: 2px solid red;  */
 }
@@ -25,6 +25,8 @@ body {
 .navItemsContainer {
     display: flex; 
     gap: 2rem;
+    /* border: 2px solid red;  */
+
 }
 
 
@@ -33,7 +35,10 @@ body {
 }
 
 .navIconsContainer {
-    display: flex; gap: 2rem;
+    display: flex; 
+    gap: 2rem;
+    /* border: 2px solid red;  */
+
 }
 
 .logoImg {
@@ -48,15 +53,15 @@ body {
 .logoText {
     /* border: 1px solid red;  */
     color: lightgray; 
-    position:absolute; 
+    /* position:absolute; 
     bottom:7rem; 
-    left: 43rem; 
+    left: 43rem;  */
     font-size:x-large;
 }
 
 .container {
      /* border: 1px solid red;  */
-     width: 99.7%; 
+     /* width: 99.7%;  */
      height: 35rem; 
      display:flex;
 }
@@ -95,10 +100,10 @@ body {
      gap: 0.3rem;
 }
 
-/* .testiImgContainer {
+.testiImgContainer {
     /* border: 1px solid red;  */
 
-/* } */ 
+} 
 
 .testimonialProfile {
     width: 3rem; 
