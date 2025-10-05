@@ -65,6 +65,8 @@ body {
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
+    /* border: 1px solid rgb(241, 12, 203);  */
+
 }
 
 .ghostImg {
@@ -73,8 +75,8 @@ body {
 }
 
 .gettingStartBox {
-    width: 30%;
-    padding: 0rem 2rem;
+    width: 28%;
+    padding: 0rem 1rem;
     /* border: 1px solid red;  */
 }
 
