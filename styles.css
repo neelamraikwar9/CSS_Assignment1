@@ -1,5 +1,5 @@
 body {
-    margin: 0px; 
+    margin: 0; 
 }
 
 /* .html, body {
@@ -11,21 +11,32 @@ body {
      /* border: 3px solid rgba(94, 255, 0, 0.822);  */
      background-color: black; 
      color: white; 
-     /* width: 99.7%;  */
+     display: flex;
      height: 30rem; 
-     /* position: relative; */
+     flex-direction:column;
+    
 }
 
 .navItemsIcons {
     display: flex;
     justify-content: space-between; 
-    /* gap: 50rem;  */
+    
     /* border: 2px solid red;  */
+}
+
+.imgContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red;  */
+    flex: 1;
+    
 }
 
 .navItemsContainer {
     display: flex; 
-    gap: 2rem;
+    justify-content: space-between;
     /* border: 2px solid red;  */
 
 }
@@ -37,7 +48,9 @@ body {
 
 .navIconsContainer {
     display: flex; 
-    gap: 2rem;
+    /* gap: 2rem; */
+    justify-content: space-between;
+    padding: 0rem 0.5rem;
     /* border: 2px solid red;  */
 
 }
@@ -45,10 +58,12 @@ body {
 .logoImg {
     width: 12rem; 
     height: 5rem; 
-    padding: 10rem; 
-    /* padding-left: 45rem; */
-    /* border: 1px solid red; */
-    margin-left: 35rem;   
+    /* padding: 10rem;  */
+    /* display: flex; */
+    /* display: block; */
+    justify-content: center;
+    align-items: center;
+     
 }
 
 .logoText {
@@ -63,22 +78,27 @@ body {
 .container {
      /* border: 1px solid red;  */
      /* width: 99.7%;  */
-     height: 35rem; 
-     display:flex;
+     padding: 3rem;
+     /* padding-bottom: 1rem; */
+
+     display: flex;
+     flex-wrap: wrap;
+   
+
 }
 
 .ghostImg {
-    width: 55rem; 
-    height: 30rem; 
-    margin: 2rem 2rem;
+    width: 100%; 
+  
+    /* border: 1px solid rgb(241, 12, 203);  */
+    
 }
 
 .gettingStartBox {
+    width: 30%; 
+   
+    padding: 0rem 2rem;
     /* border: 1px solid red;  */
-    margin: 3rem 0.1rem; 
-    width: 25rem; 
-    height: 28rem;
-    padding: 0rem 1rem;
 }
 
 .gettingstartedText {
@@ -89,7 +109,7 @@ body {
 
 .welText {
     font-size:xxx-large; 
-    margin: 0rem;
+    margin: 0;
 }
 
 .messageText {
@@ -118,18 +138,18 @@ body {
 }
 
 .writingInfo {
-    margin: 0rem;
+    margin: 0;
 }
 
 .cardsContainer {
-    margin: 3rem; 
+    /* margin: 3rem;  */
     /* border: 2px solid red;  */
     width: 20rem;
 }
 
 .img {
-    width: 20rem; 
-    height: 15rem; 
+    width: 95%; 
+    height: 40%; 
     border-radius: 0.5rem;
 }
 
@@ -142,8 +162,8 @@ body {
 }
 
 .cardSecText {
-    padding: 0rem; 
-    margin: 0rem; 
+    padding: 0; 
+    margin: 0; 
 }
 
 .testimonialCon {
@@ -158,26 +178,38 @@ body {
 
 .cards {
     display: flex; 
+    flex-wrap: wrap;
+    /* gap: 10rem; */
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-left: 3rem;
 }
 
 .twoBoxCon {
-    /* border: 1px solid red;  */
-    height: 35rem; 
-    padding: 1rem 0rem; 
-    /* padding-left: 1rem; */
-    width: 99.7%;
-    gap: 2rem; 
-    margin: 1rem 0rem;
+    border: 1px solid red; 
+    /* height: 35rem;  */
+     /* padding-top: 1rem;  */
+    /* padding-left: 3rem;  */
+    padding-top: 1rem; 
+    /* padding-left: 3rem;  */
+    /* padding-right: 1; */
+    padding: 10rem;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 1rem 0rem; */
 }
 
 .cardBoxes {
-    /* border: 1px solid red;  */
-    width: 40rem;
-    margin: 0rem 3rem; 
+    border: 1px solid red; 
+    width: 35rem;
+   
 }
 
 .boxesImg {
-    width: 40rem; 
+    width: 35rem; 
     height: 20rem; 
     border-radius: 0.5rem;
+    border: 1px solid red; 
+
 }
