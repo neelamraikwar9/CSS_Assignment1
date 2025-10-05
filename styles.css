@@ -168,7 +168,6 @@ body {
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
-    /* margin: 1rem 0rem; */
 }
 
 .cardBoxes {
@@ -182,5 +181,4 @@ body {
     height: 20rem;
     border-radius: 0.5rem;
     /* border: 1px solid red;  */
-
 }
